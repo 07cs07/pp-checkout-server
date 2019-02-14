@@ -8,8 +8,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/full-page', function(req, res, next) {
-  res.render('full-page', { title: 'full-page' });
+router.get('/cart', function(req, res, next) {
+  res.render('cart', { title: 'cart' });
 });
 
 
